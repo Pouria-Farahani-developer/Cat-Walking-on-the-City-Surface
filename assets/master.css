@@ -1,0 +1,98 @@
+html{
+    font-size: 20px;
+    margin: 0;
+    background-color: black;
+}
+
+#background_box{
+    width: 1325px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-top: 2em;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+#box_cartoon{
+    border-radius: 16px;
+    width: 1325px;
+    height: 500px;
+    background-image: linear-gradient(to bottom , #0B4C5F 0% , #04B4AE 52% , #0c0207 100%);
+    position: absolute;
+    z-index: -30;
+    top: 0;
+    margin-top: 2em;
+    margin-left: 5em;
+    overflow: hidden;
+}
+
+#home{
+    background: url('img/edificiosOne_fsg7nx.svg');
+    width: 1325px;
+    height: 500px;
+    z-index: -10;
+    position: absolute;
+    top: 8.5em;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animar_edificios 120s linear infinite;
+}
+
+@keyframes animar_edificios{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 0;
+    }
+}
+
+#moon{
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    box-shadow: 30px 10px 0 #F7F8E0;
+    margin-top: 1em;
+    margin-left: 70%;
+    position: absolute;
+    z-index: -19;
+}
+
+#ground{
+    width: 100%;
+    height: 16.5em;
+    background: linear-gradient(to bottom,  #416663 0%,#0c0207 19%);
+    /* background-color: rebeccapurple; */
+    position: absolute;
+    top: 84%;
+}
+
+#cat{
+    background: url(img/gatito_pushui\ \(2\).svg);
+    height: 297px;
+    width: 507.5px;
+    margin-top: 6.2em;
+    margin-left: 2em;
+    z-index: 10;
+    animation: anime_cat 1.2s steps(16,end) infinite;
+}
+
+
+@keyframes anime_cat {
+    from{
+        background-position: 0px 0px;
+    }
+
+    to{
+        background-position: -8120px 0px;
+    }
+}
+
+/* 
+
+CONTACT BY DEVELOPER
+INSTAGRAM : https://www.instagram.com/pouria_farahani_developer
+linkdin : https://www.linkedin.com/in/pouria-farahani-developer
+Github : https://github.com/Pouria-Farahani-developer */
